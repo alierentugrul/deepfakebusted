@@ -1,0 +1,86 @@
+{
+  "mesonet": {
+    "model_name": "mesonet",
+    "accuracy": 0.81335,
+    "auc_roc": 0.906749,
+    "f1_score": 0.793014,
+    "precision": 0.889981,
+    "recall": 0.7151,
+    "confusion_matrix": [
+      [
+        9116,
+        884
+      ],
+      [
+        2849,
+        7151
+      ]
+    ],
+    "inference_ms": 0.793,
+    "model_size_mb": 0.09,
+    "test_samples": 20000
+  },
+  "resnet50": {
+    "model_name": "resnet50",
+    "accuracy": 0.97315,
+    "auc_roc": 0.999049,
+    "f1_score": 0.972443,
+    "precision": 0.998735,
+    "recall": 0.9475,
+    "confusion_matrix": [
+      [
+        9988,
+        12
+      ],
+      [
+        525,
+        9475
+      ]
+    ],
+    "inference_ms": 7.701,
+    "model_size_mb": 89.89,
+    "test_samples": 20000
+  },
+  "efficientnet_b4": {
+    "model_name": "efficientnet_b4",
+    "accuracy": 0.996,
+    "auc_roc": 0.999907,
+    "f1_score": 0.995989,
+    "precision": 0.998793,
+    "recall": 0.9932,
+    "confusion_matrix": [
+      [
+        9988,
+        12
+      ],
+      [
+        68,
+        9932
+      ]
+    ],
+    "inference_ms": 21.726,
+    "model_size_mb": 67.43,
+    "test_samples": 20000
+  },
+  "xception": {
+    "model_name": "xception",
+    "accuracy": 0.99735,
+    "auc_roc": 0.99936,
+    "f1_score": 0.997349,
+    "precision": 0.997698,
+    "recall": 0.997,
+    "confusion_matrix": [
+      [
+        9977,
+        23
+      ],
+      [
+        30,
+        9970
+      ]
+    ],
+    "inference_ms": 8.151,
+    "model_size_mb": 79.6,
+    "test_samples": 20000
+  }
+}

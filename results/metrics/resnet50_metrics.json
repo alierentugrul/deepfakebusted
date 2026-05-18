@@ -1,0 +1,21 @@
+{
+  "model_name": "resnet50",
+  "accuracy": 0.97315,
+  "auc_roc": 0.999049,
+  "f1_score": 0.972443,
+  "precision": 0.998735,
+  "recall": 0.9475,
+  "confusion_matrix": [
+    [
+      9988,
+      12
+    ],
+    [
+      525,
+      9475
+    ]
+  ],
+  "inference_ms": 7.701,
+  "model_size_mb": 89.89,
+  "test_samples": 20000
+}

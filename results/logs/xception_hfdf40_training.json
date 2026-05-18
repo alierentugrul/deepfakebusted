@@ -1,0 +1,80 @@
+{
+  "model_name": "xception",
+  "params": {
+    "total": 20811050,
+    "trainable": 20811050
+  },
+  "size_mb": 79.6,
+  "config": {
+    "batch_size": 16,
+    "lr": 5e-05,
+    "weight_decay": 0.0001,
+    "epochs": 8,
+    "scheduler": "cosine",
+    "early_stopping_patience": 5
+  },
+  "device": "cuda",
+  "run_name": "hfdf40",
+  "data_dir": "/content/DeepFakeBusted/data/raw/archive/real_vs_fake/real-vs-fake",
+  "extra_data_dirs": [
+    "/content/hf_extracted"
+  ],
+  "epochs": [
+    {
+      "epoch": 3,
+      "train_loss": 0.20677,
+      "train_acc": 0.995672,
+      "val_loss": 0.252224,
+      "val_acc": 0.971351,
+      "lr": 3.472e-05,
+      "epoch_time_s": 1359.37
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.203852,
+      "train_acc": 0.997192,
+      "val_loss": 0.255325,
+      "val_acc": 0.969499,
+      "lr": 2.525e-05,
+      "epoch_time_s": 1310.23
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.204357,
+      "train_acc": 0.996857,
+      "val_loss": 0.224428,
+      "val_acc": 0.986946,
+      "lr": 1.578e-05,
+      "epoch_time_s": 1306.19
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.201498,
+      "train_acc": 0.998337,
+      "val_loss": 0.234472,
+      "val_acc": 0.982811,
+      "lr": 7.75e-06,
+      "epoch_time_s": 1303.22
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.200542,
+      "train_acc": 0.998878,
+      "val_loss": 0.222391,
+      "val_acc": 0.988497,
+      "lr": 2.38e-06,
+      "epoch_time_s": 1299.85
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.199992,
+      "train_acc": 0.999165,
+      "val_loss": 0.226375,
+      "val_acc": 0.98686,
+      "lr": 5e-07,
+      "epoch_time_s": 1296.15
+    }
+  ],
+  "total_time_s": 7876.36,
+  "best_val_loss": 0.222391
+}

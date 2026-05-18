@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# Frontend dependencies/build output
+web/frontend/node_modules/
+web/frontend/dist/
+
+# Local datasets and delivery bundles
+data/
+dist_colab_delivery/
+colab_import/
+final_results_bundle.zip
+*.zip
+rapor/
+prompt.md
+TESLIM_26_SAAT_COLAB_PLANI.md
+web/frontend/public/demo/
+
+# Large model artifacts
+results/checkpoints/
+
+# Local runtime logs
+results/logs/*.err
+results/logs/*.log
+web/backend_*.log
+
+# Secrets / local environment
+.env
+.env.*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
