@@ -18,7 +18,8 @@ dist_colab_delivery/
 colab_import/
 final_results_bundle.zip
 *.zip
-rapor/
+rapor/*
+!rapor/ekran_goruntuleri/
 prompt.md
 TESLIM_26_SAAT_COLAB_PLANI.md
 web/frontend/public/demo/
